@@ -6,8 +6,9 @@
     height: 100%;
     padding: 0;
     margin: 0;
-    font-family: sans-serif;
+    font-family: Courier New;
     color: #333;
+    background-color: #d4d4d4;
   }
   
   a {
@@ -17,7 +18,7 @@
   }
   
   a:hover {
-    color: #3486eb;
+    color: #348611;
   }
   
   button {
@@ -42,7 +43,7 @@
   
   textarea:focus, input:focus {
     outline: none;
-    border: 1px solid #3486eb;
+    border: 1px solid #348611;
   }
   
   textarea {
@@ -79,6 +80,10 @@
     flex: 1;
     padding: 2% 4%;
   }
+
+  .navbar {
+    background-color: #d4d4d4
+  }
   
   .btn-no-style {
     background: none;
@@ -95,7 +100,7 @@
   
   .btn-no-style:hover {
     background: none;
-    color: #3486eb;
+    color: #348611;
   }
   
   .delete-post-btn {
